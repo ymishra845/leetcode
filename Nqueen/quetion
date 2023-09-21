@@ -1,0 +1,39 @@
+N Queens
+The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other. Given an integer n, return the number of distinct solutions to the n-queens puzzle.
+
+Your task is to complete the function totalNQueens which receives n as a parameter and returns the number of distinct solutions.
+
+Input Format
+Single line of input contains the number n.
+
+Output Format
+Single line of output contains the number of distinct solutions.
+
+Example 1
+Input
+
+1
+Output
+
+1
+Explanation Since there is a single block, only one configuration is possible.
+
+Example 2
+Input
+
+4
+Output
+
+2
+Explanation
+
+Only these two configurations are possible
+
+XOXX      XXOX
+XXXO      OXXX
+OXXX      XXXO
+XXOX      XOXX
+
+Where 'X' represent empty and 'O' represents Queen.
+Constraints:
+1 <= n <= 10
